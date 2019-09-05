@@ -17,8 +17,12 @@ y = "7"
 
 print(x+int(y))
 
+# it means to print x and the integer version of y
+
 # Write a print statement that combines x + y into the string value 57
 
 # YOUR CODE HERE
 
 print(str(x)+y)
+
+# it means to print the string version of x with the addition of the string y
