@@ -27,14 +27,28 @@ print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE 
+x.remove(8)
 print(x)
+
+# I don't know what's equivalent in javascript but it would be:
+# x.splice(4,1)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
 # YOUR CODE HERE 
+x.insert(5, 99)
 print(x)
+
+# Append won't work because it only works with one element
+# insert can do multiple elements
+
 
 # Print the length of list x
 # YOUR CODE HERE 
+print(len(x))
+
+# basically x.length
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
+for i in x:
+    print(i*1000)
