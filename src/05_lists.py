@@ -8,11 +8,22 @@ y = [8, 9, 10]
 
 # Change x so that it is [1, 2, 3, 4]
 # YOUR CODE HERE 
+x.append(4)
 print(x)
+
+#Append: Basically push in javascript
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE 
+for i in y:
+    x.append(i)
 print(x)
+
+# basically: 
+# for(var i = 0; i < y.length; i++){
+#     x.push(y[i])
+# }
+# console.log(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE 
